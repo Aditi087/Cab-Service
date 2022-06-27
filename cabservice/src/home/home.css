@@ -1,0 +1,90 @@
+.card {
+    margin-bottom: 8px;
+    background-color: rgb(0, 4, 8);
+    text-align: left;
+    color: white !important;
+    margin-right: 0 !important;
+}
+
+a:hover {
+    color: rgb(81, 182, 213) !important;
+}
+#body_heading{
+    padding-top: 70px;
+    color: rgb(85, 83, 83);
+}
+
+
+
+@media (min-width: 1025px) {
+    .card {
+        width: 55%;
+        height: 90px;
+        padding: 8px;
+        padding-top: 18px;
+        padding-left: 45px;
+    }
+
+    #booking_section {
+        padding-left: 31%;
+        padding-top: 90px;
+    }
+    .lottie{
+        padding-right: 48%;
+    }
+    #home_body{
+        background-image: url(../assets/bg1.webp);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: 60%;
+        height: 90px;
+        padding: 12px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .card {
+        width: 30%;
+        height: 90px;
+        padding: 8px;
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .card {
+        width: 90%;
+        height: 80px;
+        padding: 8px;
+        padding-top: 15px;
+
+    }
+    #booking_section {
+      margin-left: 28px;
+      padding-top: 60px;
+    }
+    .lottie{
+        padding-right: 35%;
+    }
+    #home_body{
+        background-image: url(../assets/bg1.webp);
+        background-position:bottom;
+        background-size:cover;
+        background-repeat: no-repeat;
+        
+    }
+   
+}
+
+span {
+    font-weight: bold;
+}
+
+

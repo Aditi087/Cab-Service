@@ -1,0 +1,75 @@
+#chk{
+    margin:0px !important;
+    padding: 0px !important;
+    
+}
+@media (min-width: 1025px)  {
+    #booking_body{
+        background-image: url(../assets/bg1.webp);
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+    #booking_lottie{
+        padding-top: 20px;
+        margin-left: 47%;
+    }
+    #booking_info{
+        padding-bottom: 10px;
+    }
+    .booking{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+        color: aliceblue;
+        background-color: black;
+        width: 30%;
+        margin-left: 35%;
+        border-radius: 10px;
+        padding: 40px;
+        padding-left: 60px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+#booking_lottie{
+    padding-top: 200px;
+    margin-left: 35%;
+}
+#booking_body{
+    background-image: url(../assets/bg1.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#booking_info{
+    padding-bottom:0px;
+}
+.booking{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: aliceblue;
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding: 30px;
+    height: fit-content;
+}
+}
